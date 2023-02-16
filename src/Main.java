@@ -48,7 +48,7 @@ public class Main {
         } else if (deliveryDistance <= 60 || deliveryDistance <= 100) {
             System.out.println("Доставка 3е суток "+deliveryDistance+" Км");
         } else if (deliveryDistance>100) {
-            System.out.println("Доставки нет так как она превышает  "+deliveryDistance+" Км");
+            System.out.println("Доставки нет так как она превышает "+deliveryDistance+" Км");
 
         }
     }
